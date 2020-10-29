@@ -28,7 +28,7 @@ Tested on Foundry VTT 0.7.5
 
 # Feedback
 
-Every suggestions/feedback are appreciated, if so, please contact (Ape-Fink#6823) on discord 
+Suggestions and feedback are welcome, please contact (Ape-Fink#6823) on discord 
 
 # License
 
