@@ -1,23 +1,11 @@
 
 Hooks.on("init", function() {
-
+    console.log("Copy Chat ENABLED");
 });
 
 Hooks.on("ready", function() {
-    // let chat = $(".chat-message");
-    // // console.log(chat);
-    // $(chat).each(function(i,el){
-    //     console.log($(el).find('.message-copy'));
-    //     if($(el).find('.message-copy').length === 0){
-    //         $(el).children('header').prepend( "<a class='button message-copy'><i class='fas fa-copy'></i></a>" );
-    //     }
-    //     console.log($(el).find('.message-copy'));
-    //     // console.log(
-    //     //     $(el).text()
-    //     // );
-    //   });
     $("#chat-log").on('click', '.message-copy', function(event) {
-        console.log($(event.target));
+        // console.log($(event.target));
          if($(event.target).hasClass("message-copy") || $(event.target).parent().hasClass("message-copy")){
              //console.log($(event.target));
              let content = $(this).closest(".chat-message").text().replace(/\s+/g, " ");
@@ -39,6 +27,6 @@ Hooks.on("ready", function() {
 Hooks.on('createChatMessage', (chatMessage) => {
 });
 Hooks.on("renderChatMessage", (message, html, data) => {
-    console.log(html);
+    // console.log(html);
     html.children('header').prepend( "<a class='button message-copy'><i class='fas fa-copy'></i></a>" );
 });
