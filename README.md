@@ -18,7 +18,7 @@ it couldn't be simpler, once enabled you'll see a new button in each chat window
 
 ![copy chat example 1](https://github.com/carltheape/FVTT-copy-chat/blob/main/img/gimme1.png?raw=true)
 
-you'll see a confirmation message and the text contents will be copied to your clipboard for use whereever you may need it...
+you'll see a confirmation message and the text contents will be copied to your clipboard for use wherever you may need it...
 
 ![copy chat example 2](https://github.com/carltheape/FVTT-copy-chat/blob/main/img/gimme2.png?raw=true)
 
