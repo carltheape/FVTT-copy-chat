@@ -2,7 +2,7 @@
 	"name": "copy-chat",
 	"title": "Copy Chat",
 	"description": "Adds the ability to copy text from the chat window to your local clipboard",
-	"version": "0.1",
+	"version": "1.0",
 	"minimumCoreVersion" : "0.7.0",
 	"compatibleCoreVersion" : "0.7.0",
 	"author": "Ape-Fink",
