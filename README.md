@@ -1,4 +1,5 @@
 # Foundry VTT - Copy Chat!
+![copy chat](https://github.com/carltheape/FVTT-copy-chat/blob/main/img/copy-chat.png?raw=true)
 This module for Foundry VTT adds the ability to copy text from chat windows.
 
 # Installation
@@ -11,7 +12,12 @@ To install, follow these instructions:
 
 Alternatively, use the integrated module manager in Foundry.
 
+# Use
+it couldn't be simpler, once enabled you'll see a new button in each chat window, click it!
+![copy chat example 1](https://github.com/carltheape/FVTT-copy-chat/blob/main/img/gimme1.png?raw=true)
 
+you'll see a confirmation message and the text contents will be copied to your clipboard for use whereever you may need it...
+![copy chat example 2](https://github.com/carltheape/FVTT-copy-chat/blob/main/img/gimme2.png?raw=true)
 # Compatibility
 
 Tested on Foundry VTT 0.7.5  
