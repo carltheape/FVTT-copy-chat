@@ -32,6 +32,6 @@ Suggestions and feedback are welcome, please contact (Ape-Fink#6823) on discord
 
 # License
 
-FoundryVTT Dice So Nice is a module for Foundry VTT by Ape-Fink and is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+FoundryVTT Copy Chat is a module for Foundry VTT by Ape-Fink and is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
 
 This work is licensed under Foundry Virtual Tabletop [EULA - Limited License Agreement for module development](https://foundryvtt.com/article/license/).
