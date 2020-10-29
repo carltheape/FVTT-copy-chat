@@ -17,7 +17,7 @@
 		"name": "English",
 		"path": "./lang/en.json"
 	}],
-	"url": "",
-	"manifest": "",
-	"download": ""
+	"url": "https://github.com/carltheape/FVTT-copy-chat",
+	"manifest": "https://raw.githubusercontent.com/carltheape/FVTT-copy-chat/main/copy-chat/module.json",
+	"download": "https://github.com/carltheape/FVTT-copy-chat/archive/main.zip"
 }
