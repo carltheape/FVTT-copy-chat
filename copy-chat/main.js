@@ -6,7 +6,7 @@ Hooks.on("init", function() {
 Hooks.on("ready", function() {
     $("#chat-log").on('click', '.message-copy', function(event) {
         // console.log($(event.target));
-         if($(event.target).hasClass("message-copy") || $(event.target).parent().hasClass("message-copy")){
+         if($(event.target).hasClass("message-copy") || $(event.target).parent().hasClass("message-copy")) {
              //console.log($(event.target));
              let content = $(this).closest(".chat-message").text().replace(/\s+/g, " ");
              let fa_dice = $(this).closest(".chat-message").html();
