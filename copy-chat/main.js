@@ -9,8 +9,14 @@ Hooks.on("ready", function() {
          if($(event.target).hasClass("message-copy") || $(event.target).parent().hasClass("message-copy")){
              //console.log($(event.target));
              let content = $(this).closest(".chat-message").text().replace(/\s+/g, " ");
+             let fa_dice = $(this).closest(".chat-message").html();
+             if (fa_dice.includes("fa-dice")) {
+                fa_dice = ":game_die: ";
+             } else {
+                fa_dice = "";
+             }
              //console.log(content);
-             copyToClipboard(content.trim());
+             copyToClipboard(fa_dice + content.trim());
              ui.notifications.notify("Copied to clipboard");
          }
     });
