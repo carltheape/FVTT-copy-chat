@@ -10,7 +10,7 @@ Hooks.on("ready", function() {
              //console.log($(event.target));
              let content = $(this).closest(".chat-message").text().replace(/\s+/g, " ");
              //console.log(content);
-             copyToClipboard(content);
+             copyToClipboard(content.trim());
              ui.notifications.notify("Copied to clipboard");
          }
     });
