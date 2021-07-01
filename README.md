@@ -35,3 +35,5 @@ Suggestions and feedback are welcome, please contact (Ape-Fink#6823) on discord
 FoundryVTT Copy Chat is a module for Foundry VTT by Ape-Fink and is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
 
 This work is licensed under Foundry Virtual Tabletop [EULA - Limited License Agreement for module development](https://foundryvtt.com/article/license/).
+
+Cat Image used with [permission](https://www.flickr.com/photos/gingerbiscuit/16940617603) under [creative commons](https://creativecommons.org/licenses/by/2.0/)
