@@ -1,8 +1,7 @@
 import { warn, error, debug, log } from '../main.js';
-
 export const MODULE_TITLE = 'Copy Chat';
 export const MODULE_NAME = 'copy-chat';
-export const registerSettings = function () {
+export const registerSettings = function() {
   warn('Register module settings...');
   game.settings.register(MODULE_NAME, 'copy-chat-dice-icons', {
     name: 'Copy Chat for Discord',
