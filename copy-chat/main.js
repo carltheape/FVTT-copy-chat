@@ -1,8 +1,8 @@
-// Import TypeScript modules
-import { registerSettings } from './module/Settings.js';
-import { MODULE_NAME } from './module/Settings.js';
-import { MODULE_TITLE } from './module/Settings.js';
-import { initHooks, readyHooks, setupHooks } from './module/Hooks.js';
+// Import JavaScript modules
+import { registerSettings } from './modules/Settings.js';
+import { MODULE_NAME } from './modules/Settings.js';
+import { MODULE_TITLE } from './modules/Settings.js';
+import { initHooks, readyHooks, setupHooks } from './modules/Hooks.js';
 
 export let debugEnabled = 0;
 // 0 = none, warnings = 1, debug = 2, all = 3
