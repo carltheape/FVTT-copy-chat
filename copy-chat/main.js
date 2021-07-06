@@ -35,7 +35,7 @@ Hooks.once('init', async () => {
 });
 
 /* ------------------------------------ */
-/* Setup module							*/
+/* Setup module                         */
 /* ------------------------------------ */
 Hooks.once('setup', function () {
   setupHooks();
@@ -43,7 +43,7 @@ Hooks.once('setup', function () {
 });
 
 /* ------------------------------------ */
-/* When ready							*/
+/* When ready                           */
 /* ------------------------------------ */
 Hooks.once('ready', () => {
   readyHooks();
