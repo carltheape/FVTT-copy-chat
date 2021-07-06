@@ -23,7 +23,7 @@ export class CopyChat {
     }
     $(document).on('click', CopyChat.clickable, function() {
       CopyChat.updateSettings();
-      let diceIcons = ['fa-dice', 'die-one'];
+      let diceIcons = ['fa-dice', 'die-one', 'die-two', 'die-three', 'die-four', 'die-five', 'die-six', 'die-d6', 'die-d20'];
       let foundDieIcon = false;
       let content = $(this).closest('.chat-message').text().replace(/\s+/g, ' ');
       let fa_dice = $(this).closest('.chat-message').html();
