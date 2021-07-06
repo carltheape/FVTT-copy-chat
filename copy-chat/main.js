@@ -2,6 +2,7 @@
 import { registerSettings } from './modules/Settings.js';
 import { MODULE_NAME } from './modules/Settings.js';
 import { MODULE_TITLE } from './modules/Settings.js';
+import { MODULE_VERSION } from './modules/Settings.js';
 import { initHooks, readyHooks, setupHooks } from './modules/Hooks.js';
 import { BANNER } from './modules/Banner.js';
 export let debugEnabled = 0;
@@ -24,9 +25,9 @@ export let setDebugLevel = (debugText) => {
 /* Initialize module                    */
 /* ------------------------------------ */
 Hooks.once('init', async () => {
-  console.log(BANNER);
+  console.log(`${BANNER}`);
   console.log(`  
-  ${MODULE_NAME} | Initializing ${MODULE_TITLE}
+  ${MODULE_NAME} | Initializing ${MODULE_TITLE} - v${MODULE_VERSION}
   `);
   registerSettings();
   initHooks();
