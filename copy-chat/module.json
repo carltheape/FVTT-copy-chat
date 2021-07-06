@@ -7,7 +7,7 @@
   "url": "https://github.com/carltheape/FVTT-copy-chat",
   "flags": {},
   "version": "1.4",
-  "minimumCoreVersion": "0.8.8",
+  "minimumCoreVersion": "0.7.5",
   "compatibleCoreVersion": "0.8.8",
   "scripts": [],
   "esmodules": ["./main.js"],
