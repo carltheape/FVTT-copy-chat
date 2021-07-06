@@ -25,7 +25,6 @@ export let setDebugLevel = (debugText) => {
 /* ------------------------------------ */
 /* Initialize module                    */
 /* ------------------------------------ */
-
 Hooks.once('init', async () => {
   console.log(`  
   ${MODULE_NAME} | Initializing ${MODULE_TITLE}
