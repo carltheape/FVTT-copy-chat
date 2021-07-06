@@ -3,10 +3,8 @@ import { registerSettings } from './modules/Settings.js';
 import { MODULE_NAME } from './modules/Settings.js';
 import { MODULE_TITLE } from './modules/Settings.js';
 import { initHooks, readyHooks, setupHooks } from './modules/Hooks.js';
-
 export let debugEnabled = 0;
 // 0 = none, warnings = 1, debug = 2, all = 3
-
 export let debug = (...args) => {
   if (debugEnabled > 1) console.log(`DEBUG:${MODULE_NAME} | `, ...args);
 };
@@ -21,7 +19,6 @@ export let setDebugLevel = (debugText) => {
   // 0 = none, warnings = 1, debug = 2, all = 3
   if (debugEnabled >= 3) CONFIG.debug.hooks = true;
 };
-
 /* ------------------------------------ */
 /* Initialize module                    */
 /* ------------------------------------ */
@@ -32,15 +29,13 @@ Hooks.once('init', async () => {
   registerSettings();
   initHooks();
 });
-
 /* ------------------------------------ */
 /* Setup module                         */
 /* ------------------------------------ */
-Hooks.once('setup', function () {
+Hooks.once('setup', function() {
   setupHooks();
   registerSettings();
 });
-
 /* ------------------------------------ */
 /* When ready                           */
 /* ------------------------------------ */
