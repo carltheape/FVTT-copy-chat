@@ -21,7 +21,7 @@
   "download": "https://github.com/carltheape/FVTT-copy-chat/archive/main.zip",
   "id": "copy-chat",
   "compatibility": {
-    "minimum": "10.0.0",
-    "verified": "10.0.0"
+    "minimum": "10",
+    "verified": "10"
   }
 }
