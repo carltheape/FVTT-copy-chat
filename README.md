@@ -24,7 +24,7 @@ you'll see a confirmation message and the text contents will be copied to your c
 
 # Compatibility
 
-Tested on Foundry VTT 0.7.5  
+Tested on Foundry VTT 1.0.0  
 
 # Feedback
 

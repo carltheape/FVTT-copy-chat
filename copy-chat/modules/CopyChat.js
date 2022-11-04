@@ -1,5 +1,5 @@
 import { warn, error, debug, log } from '../main.js';
-import { MODULE_NAME } from './Settings.js';
+import { MODULE_TITLE } from './Settings.js';
 export class CopyChat {
   static showDiscordDie = true;
   static init() {
@@ -8,7 +8,7 @@ export class CopyChat {
   }
   static updateSettings() {
     warn('Update Discord Copy Chat Setting...');
-    CopyChat.showDiscordDie = game.settings.get(MODULE_NAME, 'copy-chat-dice-icons');
+    CopyChat.showDiscordDie = game.settings.get(MODULE_TITLE, 'copy-chat-dice-icons');
   }
   static prepareEvent() {
     warn('Set Clickable Icon...');
